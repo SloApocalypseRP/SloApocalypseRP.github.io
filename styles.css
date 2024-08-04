@@ -153,6 +153,14 @@ footer {
         transform: translateY(-100px);
     }
     to {
+
+        
+main h2 {
+    padding-right:10px;
+}
+
+
+        
         transform: translateY(0);
     }
 }
