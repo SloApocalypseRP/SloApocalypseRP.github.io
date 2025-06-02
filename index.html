@@ -127,6 +127,21 @@
         transform: translateY(0);
       }
     }
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* Aktivna navigacija */
+nav a.active {
+  color: #d9534f;
+  border-bottom: 2px solid #d9534f;
+}
   </style>
 </head>
 
